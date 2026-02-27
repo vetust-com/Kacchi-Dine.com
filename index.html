@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kacchi Dine - Authentic Taste of Tradition. Premium Kacchi, Biryani & Traditional Bengali Cuisine in Feni.">
+    <meta name="keywords" content="Kacchi, Biryani, Feni, Restaurant, Bengali Food, Traditional Cuisine">
+    <title>Kacchi Dine | Authentic Taste of Tradition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://z-cdn-media.chatglm.cn/files/adf651f4-8a86-4f28-a09e-ec91f5384570.png?auth_key=1871931379-42b247133f8845fab23d9593ea4ca5bc-0-16ffde2acf12f68489760c708d2159af">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="loader-plate"></div>
+            <img src="https://z-cdn-media.chatglm.cn/files/adf651f4-8a86-4f28-a09e-ec91f5384570.png?auth_key=1871931379-42b247133f8845fab23d9593ea4ca5bc-0-16ffde2acf12f68489760c708d2159af" alt="Loading..." class="loader-logo">
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <img src="https://z-cdn-media.chatglm.cn/files/adf651f4-8a86-4f28-a09e-ec91f5384570.png?auth_key=1871931379-42b247133f8845fab23d9593ea4ca5bc-0-16ffde2acf12f68489760c708d2159af" alt="Kacchi Dine Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-name">Kacchi Dine</span>
+                    <span class="logo-tag">Authentic Kacchi</span>
+                </div>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+8801712345678" class="btn btn-outline header-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    Call Now
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="floating-spices">
+            <div class="spice spice-1"></div>
+            <div class="spice spice-2"></div>
+            <div class="spice spice-3"></div>
+            <div class="spice spice-4"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge reveal-up">
+                    <span class="badge-icon">★</span>
+                    Serving Since 2015
+                </div>
+                <h1 class="hero-title reveal-up delay-1">
+                    Welcome to<br>
+                    <span class="highlight">Kacchi Dine</span>
+                </h1>
+                <p class="hero-tagline reveal-up delay-2">Authentic Taste of Tradition</p>
+                <p class="hero-desc reveal-up delay-3">
+                    Experience the rich flavors of authentic Kacchi Biryani, crafted with premium ingredients 
+                    and time-honored recipes passed down through generations.
+                </p>
+                <div class="hero-buttons reveal-up delay-4">
+                    <a href="#menu" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        </svg>
+                        View Menu
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        Order Now
+                    </a>
+                </div>
+
+                <div class="hero-features reveal-up delay-5">
+                    <div class="hero-feature">
+                        <div class="feature-check">✓</div>
+                        <span>Fresh Ingredients</span>
+                    </div>
+                    <div class="hero-feature">
+                        <div class="feature-check">✓</div>
+                        <span>Traditional Recipe</span>
+                    </div>
+                    <div class="hero-feature">
+                        <div class="feature-check">✓</div>
+                        <span>Quick Delivery</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal-scale">
+                <div class="hero-dish">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&h=600&fit=crop" alt="Delicious Kacchi Biryani" class="hero-dish-img">
+                    <div class="dish-glow"></div>
+                    <div class="dish-ring ring-1"></div>
+                    <div class="dish-ring ring-2"></div>
+                    <div class="dish-ring ring-3"></div>
+                </div>
+                
+                <div class="floating-badge badge-1">
+                    <span class="badge-num">10+</span>
+                    <span class="badge-text">Years</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <span class="badge-num">50K+</span>
+                    <span class="badge-text">Customers</span>
+                </div>
+                <div class="floating-badge badge-3">
+                    <span class="badge-num">4.9</span>
+                    <span class="badge-text">Rating</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Specialties Banner -->
+    <section class="specialties">
+        <div class="container">
+            <div class="specialties-track">
+                <div class="specialty-item">
+                    <span class="specialty-icon">🍚</span>
+                    <span>Basmati Rice</span>
+                </div>
+                <div class="specialty-divider"></div>
+                <div class="specialty-item">
+                    <span class="specialty-icon">🥩</span>
+                    <span>Premium Meat</span>
+                </div>
+                <div class="specialty-divider"></div>
+                <div class="specialty-item">
+                    <span class="specialty-icon">🌿</span>
+                    <span>Authentic Spices</span>
+                </div>
+                <div class="specialty-divider"></div>
+                <div class="specialty-item">
+                    <span class="specialty-icon">👨‍🍳</span>
+                    <span>Expert Chefs</span>
+                </div>
+                <div class="specialty-divider"></div>
+                <div class="specialty-item">
+                    <span class="specialty-icon">❤️</span>
+                    <span>Made with Love</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-badge">Our Specialties</span>
+                <h2 class="section-title">Explore Our Menu</h2>
+                <p class="section-desc">From traditional Kacchi to modern favorites, every dish tells a story of passion and perfection</p>
+            </div>
+
+            <div class="menu-categories reveal-up">
+                <button class="category-btn active" data-category="all">
+                    <span class="cat-icon">🍽️</span>
+                    All Items
+                </button>
+                <button class="category-btn" data-category="kacchi">
+                    <span class="cat-icon">🍛</span>
+                    Kacchi
+                </button>
+                <button class="category-btn" data-category="biryani">
+                    <span class="cat-icon">🥘</span>
+                    Biryani
+                </button>
+                <button class="category-btn" data-category="tehari">
+                    <span class="cat-icon">🍲</span>
+                    Tehari
+                </button>
+                <button class="category-btn" data-category="polao">
+                    <span class="cat-icon">🍚</span>
+                    Polao
+                </button>
+                <button class="category-btn" data-category="desserts">
+                    <span class="cat-icon">🍮</span>
+                    Desserts
+                </button>
+                <button class="category-btn" data-category="drinks">
+                    <span class="cat-icon">🥤</span>
+                    Drinks
+                </button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Kacchi Items -->
+                <article class="menu-card" data-category="kacchi">
+                    <div class="menu-card-badge">Best Seller</div>
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&h=400&fit=crop" alt="Basmati Kacchi" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Basmati Kacchi</h3>
+                            <span class="menu-price">৳220</span>
+                        </div>
+                        <p>Aromatic basmati rice with tender mutton, slow-cooked with saffron and traditional spices</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.9</span>
+                                <span class="menu-time">45 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="kacchi">
+                    <div class="menu-card-badge hot">Popular</div>
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1642821373181-696a54913e93?w=500&h=400&fit=crop" alt="Half Kacchi" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Half Kacchi</h3>
+                            <span class="menu-price">৳130</span>
+                        </div>
+                        <p>Perfect portion of our signature Kacchi Biryani for a satisfying meal</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.8</span>
+                                <span class="menu-time">30 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="kacchi">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=500&h=400&fit=crop" alt="Special Kacchi" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Special Kacchi</h3>
+                            <span class="menu-price">৳280</span>
+                        </div>
+                        <p>Extra meat portion with premium basmati rice and special spice blend</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 5.0</span>
+                                <span class="menu-time">50 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Biryani Items -->
+                <article class="menu-card" data-category="biryani">
+                    <div class="menu-card-badge">Top Rated</div>
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500&h=400&fit=crop" alt="Chicken Dum Biryani" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Chicken Dum Biryani</h3>
+                            <span class="menu-price">৳180</span>
+                        </div>
+                        <p>Juicy chicken pieces layered with fragrant rice, cooked in traditional dum style</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.9</span>
+                                <span class="menu-time">35 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="biryani">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&h=400&fit=crop" alt="Beef Biryani" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Beef Biryani</h3>
+                            <span class="menu-price">৳200</span>
+                        </div>
+                        <p>Succulent beef pieces with aromatic spices and perfectly cooked rice</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.7</span>
+                                <span class="menu-time">40 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="biryani">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=500&h=400&fit=crop" alt="Chicken Tikka Biryani" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Chicken Tikka Biryani</h3>
+                            <span class="menu-price">৳190</span>
+                        </div>
+                        <p>Grilled tikka chicken layered with aromatic rice and special masala</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.8</span>
+                                <span class="menu-time">35 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tehari Items -->
+                <article class="menu-card" data-category="tehari">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?w=500&h=400&fit=crop" alt="Mutton Tehari" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Mutton Tehari</h3>
+                            <span class="menu-price">৳160</span>
+                        </div>
+                        <p>Classic Bengali style rice dish with tender mutton and aromatic spices</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.6</span>
+                                <span class="menu-time">25 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="tehari">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&h=400&fit=crop" alt="Beef Tehari" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Beef Tehari</h3>
+                            <span class="menu-price">৳150</span>
+                        </div>
+                        <p>Hearty beef tehari with perfectly spiced rice and tender meat pieces</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.5</span>
+                                <span class="menu-time">25 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Polao Items -->
+                <article class="menu-card" data-category="polao">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=500&h=400&fit=crop" alt="Chicken Polao" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Chicken Polao</h3>
+                            <span class="menu-price">৳140</span>
+                        </div>
+                        <p>Light and aromatic polao rice served with flavorful chicken curry</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.4</span>
+                                <span class="menu-time">20 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="polao">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&h=400&fit=crop" alt="Mutton Polao" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Mutton Polao</h3>
+                            <span class="menu-price">৳170</span>
+                        </div>
+                        <p>Premium mutton polao with fragrant rice and rich, spiced mutton</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.7</span>
+                                <span class="menu-time">25 min</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Desserts -->
+                <article class="menu-card" data-category="desserts">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&h=400&fit=crop" alt="Firni" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Firni</h3>
+                            <span class="menu-price">৳50</span>
+                        </div>
+                        <p>Traditional rice pudding infused with cardamom and topped with nuts</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.8</span>
+                                <span class="menu-time">Ready</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="desserts">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&h=400&fit=crop" alt="Kheer" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Kheer</h3>
+                            <span class="menu-price">৳60</span>
+                        </div>
+                        <p>Creamy rice pudding slow-cooked with milk, sugar, and aromatic spices</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.9</span>
+                                <span class="menu-time">Ready</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Drinks -->
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1571950006917-5e4f0a46a859?w=500&h=400&fit=crop" alt="Borhani" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Borhani</h3>
+                            <span class="menu-price">৳30</span>
+                        </div>
+                        <p>Traditional spiced yogurt drink, perfect digestive after a hearty meal</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.7</span>
+                                <span class="menu-time">Ready</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1571950006917-5e4f0a46a859?w=500&h=400&fit=crop" alt="Lassi" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Lassi</h3>
+                            <span class="menu-price">৳40</span>
+                        </div>
+                        <p>Refreshing sweet yogurt drink, cool and creamy perfect for any weather</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.6</span>
+                                <span class="menu-time">Ready</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-card-img">
+                        <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=500&h=400&fit=crop" alt="Soft Drinks" loading="lazy">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Soft Drinks</h3>
+                            <span class="menu-price">৳25</span>
+                        </div>
+                        <p>Assorted cold beverages including Coke, Sprite, Fanta and local drinks</p>
+                        <div class="menu-card-footer">
+                            <div class="menu-meta">
+                                <span class="menu-rating">★ 4.3</span>
+                                <span class="menu-time">Ready</span>
+                            </div>
+                            <button class="order-btn">
+                                <span>Order Now</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="menu-cta reveal-up">
+                <p>Can't decide? Let us help you choose!</p>
+                <a href="tel:+8801712345678" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    Call to Order
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images reveal-left">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=700&fit=crop" alt="Kacchi Dine Restaurant Interior" loading="lazy">
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop" alt="Our Chef Preparing Food" loading="lazy">
+                    </div>
+                    <div class="about-experience">
+                        <span class="exp-num">10+</span>
+                        <span class="exp-text">Years of Excellence</span>
+                    </div>
+                </div>
+                
+                <div class="about-content reveal-right">
+                    <span class="section-badge">Our Story</span>
+                    <h2 class="section-title">A Legacy of Authentic Flavors</h2>
+                    <p class="about-text">
+                        Since 2015, Kacchi Dine has been serving the most authentic Kacchi Biryani in Feni. 
+                        Our recipes have been passed down through generations, preserving the traditional 
+                        cooking methods that make our dishes truly special.
+                    </p>
+                    <p class="about-text">
+                        We use only the finest ingredients - premium basmati rice, hand-picked spices, 
+                        and the freshest meat - to create dishes that honor our culinary heritage while 
+                        delighting modern palates.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                                </svg>
+                            </div>
+                            <div class="stat-info">
+                                <span class="stat-num">4.9</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <div class="stat-info">
+                                <span class="stat-num">50K+</span>
+                                <span class="stat-label">Happy Customers</span>
+                            </div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                                </svg>
+                            </div>
+                            <div class="stat-info">
+                                <span class="stat-num">15+</span>
+                                <span class="stat-label">Menu Items</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-check">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <span>Premium Quality Ingredients</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-check">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <span>Traditional Cooking Methods</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-check">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <span>Hygienic Food Preparation</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-check">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </div>
+                            <span>Quick Home Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-badge">Food Gallery</span>
+                <h2 class="section-title">Feast Your Eyes</h2>
+                <p class="section-desc">A visual journey through our delicious offerings</p>
+            </div>
+
+            <div class="gallery-grid reveal-up">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&h=600&fit=crop" alt="Kacchi Biryani" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Signature Kacchi</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500&h=500&fit=crop" alt="Biryani" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Chicken Biryani</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=500&fit=crop" alt="Restaurant Ambiance" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Our Ambiance</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500&h=500&fit=crop" alt="Kitchen" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Our Kitchen</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall">
+                    <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&h=700&fit=crop" alt="Beef Biryani" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Beef Biryani</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&h=500&fit=crop" alt="Desserts" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Sweet Endings</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-badge">Customer Love</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+            </div>
+
+            <div class="testimonials-slider reveal-up">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p>Best Kacchi Biryani in Feni! The flavors are authentic and the meat is always tender. I've been coming here for 5 years and never disappointed.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <span class="author-name">Rahim Khan</span>
+                            <span class="author-title">Regular Customer</span>
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card featured">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p>The taste reminds me of my grandmother's cooking. Pure authentic flavors with quality ingredients. This is what real Kacchi should taste like!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SA</div>
+                        <div class="author-info">
+                            <span class="author-name">Sadia Ahmed</span>
+                            <span class="author-title">Food Blogger</span>
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p>Great service, amazing food, and reasonable prices. The Chicken Biryani is my favorite. Highly recommended for family gatherings!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MH</div>
+                        <div class="author-info">
+                            <span class="author-name">Mahmud Hasan</span>
+                            <span class="author-title">Business Owner</span>
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Visit Us Today</h2>
+                <p class="section-desc">We're ready to serve you the best Kacchi in town</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>Station Road, Feni Sadar<br>Feni, Bangladesh</p>
+                            <a href="https://maps.google.com" target="_blank" class="direction-link">
+                                Get Directions
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Numbers</h4>
+                            <p><a href="tel:+8801712345678">+880 1712-345678</a></p>
+                            <p><a href="tel:+8801812345678">+880 1812-345678</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Opening Hours</h4>
+                            <div class="hours-grid">
+                                <div class="hours-item">
+                                    <span class="hours-day">Sat - Thu</span>
+                                    <span class="hours-time">11:00 AM - 10:00 PM</span>
+                                </div>
+                                <div class="hours-item">
+                                    <span class="hours-day">Friday</span>
+                                    <span class="hours-time highlight">3:00 PM - 10:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-contact">
+                        <a href="https://wa.me/8801712345678?text=Hello!%20I%20want%20to%20order%20from%20Kacchi%20Dine" target="_blank" class="contact-btn whatsapp">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            WhatsApp
+                        </a>
+                        <a href="tel:+8801712345678" class="contact-btn call">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            Call Now
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-map reveal-right">
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.1234567890123!2d91.3936!3d23.0132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAwJzQ3LjUiTiA5McKwMjMnMzcuMCJF!5e0!3m2!1sen!2sbd!4v1234567890"
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Kacchi Dine Location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo">
+                            <img src="https://z-cdn-media.chatglm.cn/files/adf651f4-8a86-4f28-a09e-ec91f5384570.png?auth_key=1871931379-42b247133f8845fab23d9593ea4ca5bc-0-16ffde2acf12f68489760c708d2159af" alt="Kacchi Dine Logo" class="footer-logo-img">
+                            <div class="footer-logo-text">
+                                <span class="footer-logo-name">Kacchi Dine</span>
+                                <span class="footer-logo-tag">Authentic Kacchi</span>
+                            </div>
+                        </a>
+                        <p class="footer-desc">Serving authentic Bengali cuisine with love since 2015. Every dish tells a story of tradition and passion.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Instagram" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="YouTube" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#menu">Our Menu</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Our Menu</h4>
+                        <ul>
+                            <li><a href="#menu">Kacchi Biryani</a></li>
+                            <li><a href="#menu">Chicken Biryani</a></li>
+                            <li><a href="#menu">Mutton Tehari</a></li>
+                            <li><a href="#menu">Polao</a></li>
+                            <li><a href="#menu">Desserts</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Station Road, Feni Sadar, Feni</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+880 1712-345678</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            <span>Open: 11 AM - 10 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Kacchi Dine. All rights reserved.</p>
+                <p>Designed with love for authentic food lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/8801712345678?text=Hello!%20I%20want%20to%20order%20from%20Kacchi%20Dine" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="whatsapp-tooltip">Order on WhatsApp</span>
+    </a>
+
+    <script>
+        // Preloader
+        const preloader = document.getElementById('preloader');
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                preloader.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }, 1000);
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const nav = document.getElementById('nav');
+
+        mobileToggle.addEventListener('click', () => {
+            mobileToggle.classList.toggle('active');
+            nav.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+        });
+
+        // Smooth scroll for nav links
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                const target = document.querySelector(targetId);
+                
+                if (target) {
+                    const headerHeight = header.offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                    
+                    mobileToggle.classList.remove('active');
+                    nav.classList.remove('active');
+                    document.body.classList.remove('menu-open');
+                    
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Menu category filter
+        const categoryBtns = document.querySelectorAll('.category-btn');
+        const menuCards = document.querySelectorAll('.menu-card');
+
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const category = btn.dataset.category;
+                
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                menuCards.forEach(card => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    
+                    setTimeout(() => {
+                        if (category === 'all' || card.dataset.category === category) {
+                            card.style.display = 'flex';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 50);
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }, 300);
+                });
+            });
+        });
+
+        // Scroll reveal animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Order button interaction
+        document.querySelectorAll('.order-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const card = this.closest('.menu-card');
+                const itemName = card.querySelector('h3').textContent;
+                const price = card.querySelector('.menu-price').textContent;
+                
+                // Create toast notification
+                const toast = document.createElement('div');
+                toast.className = 'toast-notification';
+                toast.innerHTML = `
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                    <span>${itemName} added! Call to order</span>
+                `;
+                document.body.appendChild(toast);
+                
+                setTimeout(() => toast.classList.add('show'), 10);
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => toast.remove(), 300);
+                }, 3000);
+            });
+        });
+
+        // Parallax effect for floating spices
+        document.addEventListener('mousemove', (e) => {
+            const spices = document.querySelectorAll('.spice');
+            const mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
+            const mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
+            
+            spices.forEach((spice, index) => {
+                const speed = (index + 1) * 15;
+                const x = mouseX * speed;
+                const y = mouseY * speed;
+                spice.style.transform = `translate(${x}px, ${y}px) rotate(${x * 2}deg)`;
+            });
+        });
+
+        // Update active nav on scroll
+        const sections = document.querySelectorAll('section[id]');
+        
+        window.addEventListener('scroll', () => {
+            const scrollY = window.pageYOffset;
+            
+            sections.forEach(section => {
+                const sectionHeight = section.offsetHeight;
+                const sectionTop = section.offsetTop - 150;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + sectionId) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
